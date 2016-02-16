@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09C34BEF1C72D289008DD152 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C34BEE1C72D289008DD152 /* main.m */; };
+		09C34BF21C72D289008DD152 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C34BF11C72D289008DD152 /* AppDelegate.m */; };
+		09C34BF51C72D289008DD152 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C34BF41C72D289008DD152 /* ViewController.m */; };
+		09C34BF81C72D289008DD152 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09C34BF61C72D289008DD152 /* Main.storyboard */; };
+		09C34BFA1C72D289008DD152 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09C34BF91C72D289008DD152 /* Assets.xcassets */; };
+		09C34BFD1C72D289008DD152 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09C34BFB1C72D289008DD152 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		09C34BEA1C72D289008DD152 /* JTagView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JTagView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09C34BEE1C72D289008DD152 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		09C34BF01C72D289008DD152 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		09C34BF11C72D289008DD152 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		09C34BF31C72D289008DD152 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		09C34BF41C72D289008DD152 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		09C34BF71C72D289008DD152 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		09C34BF91C72D289008DD152 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09C34BFC1C72D289008DD152 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		09C34BFE1C72D289008DD152 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09C34BE71C72D289008DD152 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09C34BE11C72D289008DD152 = {
+			isa = PBXGroup;
+			children = (
+				09C34BEC1C72D289008DD152 /* JTagView */,
+				09C34BEB1C72D289008DD152 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09C34BEB1C72D289008DD152 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09C34BEA1C72D289008DD152 /* JTagView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09C34BEC1C72D289008DD152 /* JTagView */ = {
+			isa = PBXGroup;
+			children = (
+				09C34BF01C72D289008DD152 /* AppDelegate.h */,
+				09C34BF11C72D289008DD152 /* AppDelegate.m */,
+				09C34BF31C72D289008DD152 /* ViewController.h */,
+				09C34BF41C72D289008DD152 /* ViewController.m */,
+				09C34BF61C72D289008DD152 /* Main.storyboard */,
+				09C34BF91C72D289008DD152 /* Assets.xcassets */,
+				09C34BFB1C72D289008DD152 /* LaunchScreen.storyboard */,
+				09C34BFE1C72D289008DD152 /* Info.plist */,
+				09C34BED1C72D289008DD152 /* Supporting Files */,
+			);
+			path = JTagView;
+			sourceTree = "<group>";
+		};
+		09C34BED1C72D289008DD152 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				09C34BEE1C72D289008DD152 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09C34BE91C72D289008DD152 /* JTagView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09C34C011C72D289008DD152 /* Build configuration list for PBXNativeTarget "JTagView" */;
+			buildPhases = (
+				09C34BE61C72D289008DD152 /* Sources */,
+				09C34BE71C72D289008DD152 /* Frameworks */,
+				09C34BE81C72D289008DD152 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JTagView;
+			productName = JTagView;
+			productReference = 09C34BEA1C72D289008DD152 /* JTagView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09C34BE21C72D289008DD152 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = junlongj;
+				TargetAttributes = {
+					09C34BE91C72D289008DD152 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 09C34BE51C72D289008DD152 /* Build configuration list for PBXProject "JTagView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09C34BE11C72D289008DD152;
+			productRefGroup = 09C34BEB1C72D289008DD152 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09C34BE91C72D289008DD152 /* JTagView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09C34BE81C72D289008DD152 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09C34BFD1C72D289008DD152 /* LaunchScreen.storyboard in Resources */,
+				09C34BFA1C72D289008DD152 /* Assets.xcassets in Resources */,
+				09C34BF81C72D289008DD152 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09C34BE61C72D289008DD152 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09C34BF51C72D289008DD152 /* ViewController.m in Sources */,
+				09C34BF21C72D289008DD152 /* AppDelegate.m in Sources */,
+				09C34BEF1C72D289008DD152 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		09C34BF61C72D289008DD152 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09C34BF71C72D289008DD152 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		09C34BFB1C72D289008DD152 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09C34BFC1C72D289008DD152 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09C34BFF1C72D289008DD152 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		09C34C001C72D289008DD152 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09C34C021C72D289008DD152 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JTagView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JTagView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		09C34C031C72D289008DD152 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JTagView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JTagView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09C34BE51C72D289008DD152 /* Build configuration list for PBXProject "JTagView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09C34BFF1C72D289008DD152 /* Debug */,
+				09C34C001C72D289008DD152 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09C34C011C72D289008DD152 /* Build configuration list for PBXNativeTarget "JTagView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09C34C021C72D289008DD152 /* Debug */,
+				09C34C031C72D289008DD152 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09C34BE21C72D289008DD152 /* Project object */;
+}
