@@ -9,10 +9,20 @@
 /* Begin PBXBuildFile section */
 		09C34BEF1C72D289008DD152 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C34BEE1C72D289008DD152 /* main.m */; };
 		09C34BF21C72D289008DD152 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C34BF11C72D289008DD152 /* AppDelegate.m */; };
-		09C34BF51C72D289008DD152 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C34BF41C72D289008DD152 /* ViewController.m */; };
 		09C34BF81C72D289008DD152 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09C34BF61C72D289008DD152 /* Main.storyboard */; };
 		09C34BFA1C72D289008DD152 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09C34BF91C72D289008DD152 /* Assets.xcassets */; };
 		09C34BFD1C72D289008DD152 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09C34BFB1C72D289008DD152 /* LaunchScreen.storyboard */; };
+		09C34C161C72DD99008DD152 /* PPLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C34C151C72DD99008DD152 /* PPLabel.m */; };
+		09C34C211C72DDA4008DD152 /* SCCommodityTagsBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C34C191C72DDA4008DD152 /* SCCommodityTagsBaseView.m */; };
+		09C34C221C72DDA4008DD152 /* SCEditCommodityTagsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C34C1C1C72DDA4008DD152 /* SCEditCommodityTagsView.m */; };
+		09C34C231C72DDA4008DD152 /* SCListCommodityTagsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C34C1E1C72DDA4008DD152 /* SCListCommodityTagsView.m */; };
+		09C34C271C72EF6A008DD152 /* SCListCommodityTagsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C34C261C72EF6A008DD152 /* SCListCommodityTagsModel.m */; };
+		09C34C2A1C72EFC1008DD152 /* SCStrokeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C34C291C72EFC1008DD152 /* SCStrokeLabel.m */; };
+		09C34C2D1C72F148008DD152 /* SCUIAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C34C2C1C72F148008DD152 /* SCUIAnimation.m */; };
+		09C34C301C72F3C9008DD152 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C34C2F1C72F3C9008DD152 /* ListViewController.m */; };
+		09C34C331C72F3DC008DD152 /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C34C321C72F3DC008DD152 /* EditViewController.m */; };
+		09C34C361C72F531008DD152 /* ListImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C34C351C72F531008DD152 /* ListImageCell.m */; };
+		DE9BE382A0D168B1B6D8C2B9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D742FBC587FE302F9A45DCA /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +30,34 @@
 		09C34BEE1C72D289008DD152 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		09C34BF01C72D289008DD152 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		09C34BF11C72D289008DD152 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		09C34BF31C72D289008DD152 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		09C34BF41C72D289008DD152 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		09C34BF71C72D289008DD152 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		09C34BF91C72D289008DD152 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09C34BFC1C72D289008DD152 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09C34BFE1C72D289008DD152 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09C34C141C72DD99008DD152 /* PPLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPLabel.h; sourceTree = "<group>"; };
+		09C34C151C72DD99008DD152 /* PPLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPLabel.m; sourceTree = "<group>"; };
+		09C34C181C72DDA4008DD152 /* SCCommodityTagsBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCCommodityTagsBaseView.h; sourceTree = "<group>"; };
+		09C34C191C72DDA4008DD152 /* SCCommodityTagsBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCCommodityTagsBaseView.m; sourceTree = "<group>"; };
+		09C34C1A1C72DDA4008DD152 /* SCCommodityTagsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCCommodityTagsView.h; sourceTree = "<group>"; };
+		09C34C1B1C72DDA4008DD152 /* SCEditCommodityTagsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCEditCommodityTagsView.h; sourceTree = "<group>"; };
+		09C34C1C1C72DDA4008DD152 /* SCEditCommodityTagsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCEditCommodityTagsView.m; sourceTree = "<group>"; };
+		09C34C1D1C72DDA4008DD152 /* SCListCommodityTagsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCListCommodityTagsView.h; sourceTree = "<group>"; };
+		09C34C1E1C72DDA4008DD152 /* SCListCommodityTagsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCListCommodityTagsView.m; sourceTree = "<group>"; };
+		09C34C251C72EF6A008DD152 /* SCListCommodityTagsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCListCommodityTagsModel.h; sourceTree = "<group>"; };
+		09C34C261C72EF6A008DD152 /* SCListCommodityTagsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCListCommodityTagsModel.m; sourceTree = "<group>"; };
+		09C34C281C72EFC1008DD152 /* SCStrokeLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCStrokeLabel.h; sourceTree = "<group>"; };
+		09C34C291C72EFC1008DD152 /* SCStrokeLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCStrokeLabel.m; sourceTree = "<group>"; };
+		09C34C2B1C72F148008DD152 /* SCUIAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCUIAnimation.h; sourceTree = "<group>"; };
+		09C34C2C1C72F148008DD152 /* SCUIAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCUIAnimation.m; sourceTree = "<group>"; };
+		09C34C2E1C72F3C9008DD152 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		09C34C2F1C72F3C9008DD152 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		09C34C311C72F3DC008DD152 /* EditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditViewController.h; sourceTree = "<group>"; };
+		09C34C321C72F3DC008DD152 /* EditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditViewController.m; sourceTree = "<group>"; };
+		09C34C341C72F531008DD152 /* ListImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListImageCell.h; sourceTree = "<group>"; };
+		09C34C351C72F531008DD152 /* ListImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListImageCell.m; sourceTree = "<group>"; };
+		1D742FBC587FE302F9A45DCA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A70B23C7B5C3E60D049B7BD0 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		D5745364C20740BBE4896415 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE9BE382A0D168B1B6D8C2B9 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +77,8 @@
 			children = (
 				09C34BEC1C72D289008DD152 /* JTagView */,
 				09C34BEB1C72D289008DD152 /* Products */,
+				85C32D22BDC08FE7479457F0 /* Pods */,
+				C1CA56AEE0E76D20E2663B7A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +93,16 @@
 		09C34BEC1C72D289008DD152 /* JTagView */ = {
 			isa = PBXGroup;
 			children = (
+				09C34C171C72DDA4008DD152 /* TagsView */,
+				09C34C121C72D49D008DD152 /* Dependency */,
 				09C34BF01C72D289008DD152 /* AppDelegate.h */,
 				09C34BF11C72D289008DD152 /* AppDelegate.m */,
-				09C34BF31C72D289008DD152 /* ViewController.h */,
-				09C34BF41C72D289008DD152 /* ViewController.m */,
+				09C34C2E1C72F3C9008DD152 /* ListViewController.h */,
+				09C34C2F1C72F3C9008DD152 /* ListViewController.m */,
+				09C34C311C72F3DC008DD152 /* EditViewController.h */,
+				09C34C321C72F3DC008DD152 /* EditViewController.m */,
+				09C34C341C72F531008DD152 /* ListImageCell.h */,
+				09C34C351C72F531008DD152 /* ListImageCell.m */,
 				09C34BF61C72D289008DD152 /* Main.storyboard */,
 				09C34BF91C72D289008DD152 /* Assets.xcassets */,
 				09C34BFB1C72D289008DD152 /* LaunchScreen.storyboard */,
@@ -79,6 +120,60 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		09C34C121C72D49D008DD152 /* Dependency */ = {
+			isa = PBXGroup;
+			children = (
+				09C34C131C72DD99008DD152 /* PPLabel */,
+			);
+			path = Dependency;
+			sourceTree = "<group>";
+		};
+		09C34C131C72DD99008DD152 /* PPLabel */ = {
+			isa = PBXGroup;
+			children = (
+				09C34C141C72DD99008DD152 /* PPLabel.h */,
+				09C34C151C72DD99008DD152 /* PPLabel.m */,
+			);
+			path = PPLabel;
+			sourceTree = "<group>";
+		};
+		09C34C171C72DDA4008DD152 /* TagsView */ = {
+			isa = PBXGroup;
+			children = (
+				09C34C181C72DDA4008DD152 /* SCCommodityTagsBaseView.h */,
+				09C34C191C72DDA4008DD152 /* SCCommodityTagsBaseView.m */,
+				09C34C1A1C72DDA4008DD152 /* SCCommodityTagsView.h */,
+				09C34C1B1C72DDA4008DD152 /* SCEditCommodityTagsView.h */,
+				09C34C1C1C72DDA4008DD152 /* SCEditCommodityTagsView.m */,
+				09C34C1D1C72DDA4008DD152 /* SCListCommodityTagsView.h */,
+				09C34C1E1C72DDA4008DD152 /* SCListCommodityTagsView.m */,
+				09C34C251C72EF6A008DD152 /* SCListCommodityTagsModel.h */,
+				09C34C261C72EF6A008DD152 /* SCListCommodityTagsModel.m */,
+				09C34C281C72EFC1008DD152 /* SCStrokeLabel.h */,
+				09C34C291C72EFC1008DD152 /* SCStrokeLabel.m */,
+				09C34C2B1C72F148008DD152 /* SCUIAnimation.h */,
+				09C34C2C1C72F148008DD152 /* SCUIAnimation.m */,
+			);
+			path = TagsView;
+			sourceTree = "<group>";
+		};
+		85C32D22BDC08FE7479457F0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A70B23C7B5C3E60D049B7BD0 /* Pods.debug.xcconfig */,
+				D5745364C20740BBE4896415 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C1CA56AEE0E76D20E2663B7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D742FBC587FE302F9A45DCA /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +181,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 09C34C011C72D289008DD152 /* Build configuration list for PBXNativeTarget "JTagView" */;
 			buildPhases = (
+				1BB3211F1154176099D3A2B1 /* Check Pods Manifest.lock */,
 				09C34BE61C72D289008DD152 /* Sources */,
 				09C34BE71C72D289008DD152 /* Frameworks */,
 				09C34BE81C72D289008DD152 /* Resources */,
+				02534EFD9277C428A3942A74 /* Embed Pods Frameworks */,
+				45A79BCA25D703AE2ECCC7C8 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -110,6 +208,7 @@
 				TargetAttributes = {
 					09C34BE91C72D289008DD152 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = K78T9LD5UA;
 					};
 				};
 			};
@@ -144,14 +243,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		02534EFD9277C428A3942A74 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1BB3211F1154176099D3A2B1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		45A79BCA25D703AE2ECCC7C8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		09C34BE61C72D289008DD152 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09C34BF51C72D289008DD152 /* ViewController.m in Sources */,
+				09C34C301C72F3C9008DD152 /* ListViewController.m in Sources */,
+				09C34C2D1C72F148008DD152 /* SCUIAnimation.m in Sources */,
+				09C34C161C72DD99008DD152 /* PPLabel.m in Sources */,
 				09C34BF21C72D289008DD152 /* AppDelegate.m in Sources */,
+				09C34C221C72DDA4008DD152 /* SCEditCommodityTagsView.m in Sources */,
+				09C34C361C72F531008DD152 /* ListImageCell.m in Sources */,
+				09C34C2A1C72EFC1008DD152 /* SCStrokeLabel.m in Sources */,
+				09C34C271C72EF6A008DD152 /* SCListCommodityTagsModel.m in Sources */,
 				09C34BEF1C72D289008DD152 /* main.m in Sources */,
+				09C34C331C72F3DC008DD152 /* EditViewController.m in Sources */,
+				09C34C231C72DDA4008DD152 /* SCListCommodityTagsView.m in Sources */,
+				09C34C211C72DDA4008DD152 /* SCCommodityTagsBaseView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +350,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: 1056393806@qq.com (U732BTH5TU)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -216,6 +373,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "33eb285b-e58e-484d-bd52-ec4b796be8c3";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -237,6 +395,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: 1056393806@qq.com (U732BTH5TU)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -252,6 +411,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "33eb285b-e58e-484d-bd52-ec4b796be8c3";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -259,23 +419,29 @@
 		};
 		09C34C021C72D289008DD152 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A70B23C7B5C3E60D049B7BD0 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: 1056393806@qq.com (U732BTH5TU)";
 				INFOPLIST_FILE = JTagView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.JTagView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jinc.iphone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "33eb285b-e58e-484d-bd52-ec4b796be8c3";
 			};
 			name = Debug;
 		};
 		09C34C031C72D289008DD152 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5745364C20740BBE4896415 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: 1056393806@qq.com (U732BTH5TU)";
 				INFOPLIST_FILE = JTagView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.JTagView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jinc.iphone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "33eb285b-e58e-484d-bd52-ec4b796be8c3";
 			};
 			name = Release;
 		};
@@ -298,6 +464,7 @@
 				09C34C031C72D289008DD152 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
